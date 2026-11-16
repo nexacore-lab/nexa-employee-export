@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="nexa_hr_employee_view_list" model="ir.ui.view">
+        <field name="name">hr.employee.list.nexa.employee.export</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//list/header" position="inside">
+                <button name="action_nex_export_xlsx" type="object" string="Export Excel"
+                    icon="fa-file-excel-o" display="always" groups="hr.group_hr_user"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
