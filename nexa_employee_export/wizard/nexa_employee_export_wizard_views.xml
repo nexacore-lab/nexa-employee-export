@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="nexa_employee_export_wizard_view_form" model="ir.ui.view">
+        <field name="name">nex.employee.export.wizard.form</field>
+        <field name="model">nex.employee.export.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Export Employees">
+                <field name="employee_ids" invisible="1"/>
+                <div class="text-muted mb-3">
+                    <i class="fa fa-users me-1" title="Employees"/>
+                    <field name="summary" class="d-inline"/>
+                </div>
+                <group>
+                    <group>
+                        <field name="mode" widget="radio"/>
+                        <field name="include_archived" invisible="employee_ids"/>
+                    </group>
+                </group>
+                <group string="Columns">
+                    <group>
+                        <field name="group_identity"/>
+                        <field name="group_job"/>
+                        <field name="group_contract"/>
+                        <field name="group_private"/>
+                    </group>
+                    <group>
+                        <field name="group_emergency"/>
+                        <field name="group_bank"/>
+                        <field name="group_permit"/>
+                    </group>
+                </group>
+                <group>
+                    <field name="extra_field_ids" widget="many2many_tags"
+                        options="{'no_create': True}" placeholder="Any other employee field"/>
+                </group>
+                <div class="alert alert-info mb-0" role="status" invisible="mode != 'report'">
+                    One readable sheet with grouped headers and computed columns (age, join date,
+                    length of service). No salary is exported.
+                </div>
+                <div class="alert alert-warning mb-0" role="status" invisible="mode != 'import'">
+                    <p class="mb-1">A file to update the employees in Excel, then import it back with
+                        Employees, gear icon, <b>Import records</b>:</p>
+                    <ul class="mb-0">
+                        <li>keep the <b>id</b> column: it makes the import update the same employees
+                            instead of creating new ones;</li>
+                        <li>the headers are technical field names, so the columns are mapped by themselves;</li>
+                        <li>relations (department, job position, manager...) are external IDs, listed with
+                            their names in the <b>Reference</b> sheet;</li>
+                        <li>computed columns and contract data are left out: they cannot be imported.</li>
+                    </ul>
+                </div>
+                <footer>
+                    <button name="action_export" type="object" string="Export" class="btn-primary"
+                        icon="fa-download"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,407 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* nexa_employee_export
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-16 17:21+0000\n"
+"PO-Revision-Date: 2026-11-16 17:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: id\n"
+"Plural-Forms: \n"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "%(years)s y %(months)s m"
+msgstr "%(years)s th %(months)s bln"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "%s selected employees."
+msgstr "%s karyawan terpilih."
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "1. Change the data in the \"Employees\" sheet. Do not change or delete the \"id\" column and the header row."
+msgstr "1. Ubah data di sheet \"Employees\". Jangan ubah atau hapus kolom \"id\" dan baris judul."
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "2. In Odoo, open Employees, list view, gear icon, Import records, and upload this file."
+msgstr "2. Di Odoo, buka Karyawan, tampilan daftar, ikon roda gigi, Impor rekaman, lalu unggah file ini."
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "3. Choose the \"Employees\" sheet: the columns are mapped by themselves, the headers are the technical names of the fields."
+msgstr "3. Pilih sheet \"Employees\": kolom terpetakan otomatis karena judulnya nama teknis field."
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "4. Click Test, then Import. A row with the same \"id\" updates that employee."
+msgstr "4. Klik Uji, lalu Impor. Baris dengan \"id\" yang sama memperbarui karyawan tersebut."
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid "<i class=\"fa fa-users me-1\" title=\"Employees\"/>"
+msgstr "<i class=\"fa fa-users me-1\" title=\"Karyawan\"/>"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid ""
+"A file to update the employees in Excel, then import it back with\n"
+"                        Employees, gear icon, <b>Import records</b>:"
+msgstr "File untuk memperbarui karyawan di Excel, lalu diimpor kembali lewat Karyawan, ikon roda gigi, <b>Impor rekaman</b>:"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__extra_field_ids
+msgid "Additional Fields"
+msgstr "Field Tambahan"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Age"
+msgstr "Usia"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid "Any other employee field"
+msgstr "Field karyawan lainnya"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Archived"
+msgstr "Diarsipkan"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__group_bank
+msgid "Bank"
+msgstr "Bank"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid "Cancel"
+msgstr "Batal"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid "Columns"
+msgstr "Kolom"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__group_contract
+msgid "Contract"
+msgstr "Kontrak"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_field__create_uid
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__create_uid
+msgid "Created by"
+msgstr "Dibuat oleh"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_field__create_date
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__create_date
+msgid "Created on"
+msgstr "Dibuat pada"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_field__display_name
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__display_name
+msgid "Display Name"
+msgstr "Nama Tampilan"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__group_emergency
+msgid "Emergency Contact"
+msgstr "Kontak Darurat"
+
+#. module: nexa_employee_export
+#: model:ir.model,name:nexa_employee_export.model_hr_employee
+msgid "Employee"
+msgstr "Karyawan"
+
+#. module: nexa_employee_export
+#: model:ir.model,name:nexa_employee_export.model_nex_employee_export_wizard
+msgid "Employee Excel Export"
+msgstr "Ekspor Excel Karyawan"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__employee_ids
+msgid "Employees"
+msgstr "Karyawan"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Employees %s.xlsx"
+msgstr "Karyawan %s.xlsx"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Employees (re-import) %s.xlsx"
+msgstr "Karyawan (impor ulang) %s.xlsx"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid "Export"
+msgstr "Ekspor"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid "Export Employees"
+msgstr "Ekspor Karyawan"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_hr_employee_view_list
+msgid "Export Excel"
+msgstr "Ekspor Excel"
+
+#. module: nexa_employee_export
+#: model:ir.model,name:nexa_employee_export.model_nex_employee_export_field
+msgid "Exportable Employee Field"
+msgstr "Field Karyawan yang Bisa Diekspor"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "External ID"
+msgstr "External ID"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "External ID of the employee: do not change it."
+msgstr "External ID karyawan: jangan diubah."
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__mode
+msgid "Format"
+msgstr "Format"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "How to Import"
+msgstr "Cara Impor"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "How to update the employees with this file:"
+msgstr "Cara memperbarui karyawan dengan file ini:"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_field__id
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__group_identity
+msgid "Identity"
+msgstr "Identitas"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__include_archived
+msgid "Include Archived Employees"
+msgstr "Sertakan Karyawan yang Diarsipkan"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__group_job
+msgid "Job"
+msgstr "Pekerjaan"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Join Date"
+msgstr "Tanggal Bergabung"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_field__label
+msgid "Label"
+msgstr "Label"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_field__write_uid
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Terakhir Diperbarui oleh"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_field__write_date
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__write_date
+msgid "Last Updated on"
+msgstr "Terakhir Diperbarui pada"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Length of Service"
+msgstr "Masa Kerja"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Name"
+msgstr "Nama"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "No"
+msgstr "Tidak"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "No row selected: all the %s employees of the current companies."
+msgstr "Tidak ada baris dipilih: semua %s karyawan di perusahaan aktif."
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid ""
+"One readable sheet with grouped headers and computed columns (age, join date,\n"
+"                    length of service). No salary is exported."
+msgstr "Satu sheet yang mudah dibaca dengan judul berkelompok dan kolom hitungan (usia, tanggal bergabung, masa kerja). Gaji tidak pernah diekspor."
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,help:nexa_employee_export.field_nex_employee_export_wizard__include_archived
+msgid "Only used when no employee is selected in the list."
+msgstr "Hanya dipakai bila tidak ada karyawan yang dipilih di daftar."
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,help:nexa_employee_export.field_nex_employee_export_wizard__extra_field_ids
+msgid "Other fields of the employee to add at the end, for example the fields of your own modules."
+msgstr "Field karyawan lain yang ditambahkan di akhir, misalnya field dari modul Anda sendiri."
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__group_private
+msgid "Private Information"
+msgstr "Informasi Pribadi"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Reference"
+msgstr "Referensi"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields.selection,name:nexa_employee_export.selection__nex_employee_export_wizard__mode__report
+msgid "Report"
+msgstr "Laporan"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__summary
+msgid "Summary"
+msgstr "Ringkasan"
+
+#. module: nexa_employee_export
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_field__name
+msgid "Technical Name"
+msgstr "Nama Teknis"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "The columns ending with \"/id\" (department, job position, manager...) hold external IDs, not names. To change one, look for the new value in the \"Reference\" sheet and copy its external ID."
+msgstr "Kolom berakhiran \"/id\" (departemen, jabatan, atasan...) berisi External ID, bukan nama. Untuk menggantinya, cari nilai baru di sheet \"Reference\" lalu salin External ID-nya."
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "There is no employee to export."
+msgstr "Tidak ada karyawan untuk diekspor."
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "This export was prepared by another user."
+msgstr "Ekspor ini disiapkan oleh user lain."
+
+#. module: nexa_employee_export
+#: model:ir.model.fields.selection,name:nexa_employee_export.selection__nex_employee_export_wizard__mode__import
+msgid "Update and Re-import"
+msgstr "Perbarui dan Impor Ulang"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Used in the columns"
+msgstr "Dipakai di kolom"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+#: model:ir.model.fields,field_description:nexa_employee_export.field_nex_employee_export_wizard__group_permit
+msgid "Work Permit"
+msgstr "Izin Kerja"
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "Yes"
+msgstr "Ya"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid "computed columns and contract data are left out: they cannot be imported."
+msgstr "kolom hitungan dan data kontrak tidak disertakan: keduanya tidak bisa diimpor."
+
+#. module: nexa_employee_export
+#. odoo-python
+#: code:addons/nexa_employee_export/wizard/nexa_employee_export_wizard.py:0
+msgid "external ID, see the Reference sheet"
+msgstr "External ID, lihat sheet Reference"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid ""
+"keep the <b>id</b> column: it makes the import update the same employees\n"
+"                            instead of creating new ones;"
+msgstr "pertahankan kolom <b>id</b>: kolom ini membuat impor memperbarui karyawan yang sama, bukan membuat yang baru;"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid ""
+"relations (department, job position, manager...) are external IDs, listed with\n"
+"                            their names in the <b>Reference</b> sheet;"
+msgstr "relasi (departemen, jabatan, atasan...) berupa External ID, tercantum bersama namanya di sheet <b>Reference</b>;"
+
+#. module: nexa_employee_export
+#: model_terms:ir.ui.view,arch_db:nexa_employee_export.nexa_employee_export_wizard_view_form
+msgid "the headers are technical field names, so the columns are mapped by themselves;"
+msgstr "judul kolom memakai nama teknis field, jadi kolom terpetakan otomatis;"
