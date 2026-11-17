@@ -1,5 +1,5 @@
 {
-    'name': 'Nexa Employee Export',
+    'name': 'Employee Excel Export | HR Report, Bulk Update & Re-import',
     'version': '19.0.1.0.0',
     'summary': 'Employee export, export employees to Excel, employee Excel export, employee data export, '
                'employee report Excel, employee list export, HR export, export employee data, employee '
